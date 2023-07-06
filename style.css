@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Montserrat";
 }
 
 .container {
@@ -29,4 +30,53 @@
   z-index: 9999;
   align-self: center;
   position: absolute;
+  color: hsl(300, 42%, 36%);
+  display: flex;
+}
+.container .content .ourMessage {
+  width: 500px;
+}
+.container .content .ourMessage .title {
+  font-size: 50px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.container .content .ourMessage .message {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+}
+.container .content .ratings {
+  width: 550px;
+  height: 300px;
+  position: absolute;
+  right: 0;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.container .content .ratings .ratingItems {
+  background-color: #fae6fe;
+  width: 450px;
+  display: flex;
+  justify-content: space-around;
+  height: 60px;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: hsl(300, 43%, 22%);
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.container .content .ratings .ratingItems .stars img {
+  margin-right: 2px;
+  height: 18px;
+  align-self: baseline;
+}
+.container .content .ratings :nth-child(2) {
+  align-self: center;
+}
+.container .content .ratings :nth-child(3) {
+  align-self: flex-end;
 }/*# sourceMappingURL=style.css.map */
