@@ -27,14 +27,18 @@
 .container .content {
   width: 80%;
   height: 90vh;
-  z-index: 9999;
   align-self: center;
+  z-index: 9999;
   position: absolute;
   color: hsl(300, 42%, 36%);
   display: flex;
 }
 .container .content .ourMessage {
   width: 500px;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: absolute;
+  left: 0;
 }
 .container .content .ourMessage .title {
   font-size: 50px;
@@ -79,4 +83,60 @@
 }
 .container .content .ratings :nth-child(3) {
   align-self: flex-end;
+}
+.container .content .profiles {
+  width: 100%;
+  height: 40vh;
+  align-self: flex-end;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.container .content .profiles .profile {
+  width: 30%;
+  height: 250px;
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+}
+.container .content .profiles .profile .titles {
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+}
+.container .content .profiles .profile .titles .profImage {
+  border-radius: 50%;
+  width: 50px;
+}
+.container .content .profiles .profile .titles .details {
+  margin-left: 20px;
+}
+.container .content .profiles .profile .titles .details .title {
+  color: white;
+  font-weight: 700;
+}
+.container .content .profiles .profile .titles .details .jobTitle {
+  color: hsl(333, 80%, 67%);
+  font-weight: 400;
+}
+.container .content .profiles .profile .review {
+  height: 50%;
+  text-align: left;
+  align-self: flex-end;
+  color: white;
+  font-size: 15px;
+  line-height: 25px;
+}
+.container .content .profiles :nth-child(1) {
+  align-self: flex-start;
+}
+.container .content .profiles :nth-child(2) {
+  align-self: center;
+}
+.container .content .profiles :nth-child(3) {
+  align-self: center;
+  margin-top: 40px;
 }/*# sourceMappingURL=style.css.map */
