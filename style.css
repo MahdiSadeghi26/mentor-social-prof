@@ -27,6 +27,9 @@
   right: 0;
   width: auto;
 }
+.container .mobileTop {
+  display: none;
+}
 .container .content {
   z-index: 99999;
   width: 80%;
@@ -160,6 +163,58 @@
     font-size: 15px;
   }
   .container .content .firstRow .ratings {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .container .desktopBottom {
+    display: none;
+  }
+  .container .dektopTop {
+    display: none;
+  }
+  .container .mobileTop {
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .container .mobileBottom {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  .container .content .firstRow {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+  .container .content .firstRow .ourMessage {
+    text-align: center;
+  }
+  .container .content .firstRow .ratings {
+    width: 100%;
+  }
+  .container .content .firstRow .ratings .review,
+  .container .content .firstRow .ratings .guru,
+  .container .content .firstRow .ratings .bestTech {
+    align-self: center;
+  }
+  .container .content .secondRow {
+    height: auto;
+    align-self: center;
+  }
+  .container .content .secondRow .profiles {
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .container .content .secondRow .profiles :nth-child(1),
+  .container .content .secondRow .profiles :nth-child(2),
+  .container .content .secondRow .profiles :nth-child(3) {
+    align-self: center;
+  }
+  .container .content .secondRow .profiles .profile {
     width: 50%;
   }
 }/*# sourceMappingURL=style.css.map */
