@@ -107,7 +107,7 @@
 .container .content .secondRow .profiles .profile {
   padding: 30px;
   border-radius: 11px;
-  width: 380px;
+  width: 30%;
   height: 270px;
   background-color: hsl(300, 43%, 22%);
   display: flex;
