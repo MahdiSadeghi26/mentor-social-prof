@@ -217,4 +217,15 @@
   .container .content .secondRow .profiles .profile {
     width: 50%;
   }
+}
+@media screen and (max-width: 768px) {
+  .container .content .firstRow .ourMessage {
+    width: 350px;
+  }
+  .container .content .firstRow .ourMessage .title {
+    font-size: 45px;
+  }
+  .container .content .secondRow .profiles .profile {
+    width: 90%;
+  }
 }/*# sourceMappingURL=style.css.map */
