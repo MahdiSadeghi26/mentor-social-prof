@@ -228,4 +228,28 @@
   .container .content .secondRow .profiles .profile {
     width: 90%;
   }
+}
+@media screen and (max-width: 576px) {
+  .container .content {
+    width: 100%;
+    padding: 10px;
+  }
+  .container .content .firstRow .ourMessage .title {
+    font-size: 38px;
+  }
+  .container .content .firstRow .ourMessage .message {
+    font-size: 14px;
+  }
+  .container .content .firstRow .ratings {
+    width: 100%;
+  }
+  .container .content .firstRow .ratings .ratingItems {
+    width: 95%;
+  }
+  .container .content .firstRow .ratings .ratingItems .stars img {
+    width: 14px;
+  }
+  .container .content .firstRow .ratings .ratingTitle {
+    font-size: 14px;
+  }
 }/*# sourceMappingURL=style.css.map */
