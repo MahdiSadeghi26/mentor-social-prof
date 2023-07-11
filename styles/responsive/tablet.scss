@@ -8,11 +8,12 @@
             font-size: 45px;
           }
         }
-        > .secondRow {
-          > .profiles {
-            > .profile {
-              width: 90%;
-            }
+      }
+      > .secondRow {
+        width: 90%;
+        > .profiles {
+          > .profile {
+            width: 100%;
           }
         }
       }

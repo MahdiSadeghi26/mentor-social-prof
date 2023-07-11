@@ -3,7 +3,7 @@
     > .content {
       width: 100%;
       padding: 10px;
-      .firstRow {
+      >.firstRow {
         > .ourMessage {
           > .title {
             font-size: 38px;
@@ -13,7 +13,6 @@
             font-size: 15px;
           }
         }
-
         > .ratings {
           width: 100%;
           > .ratingItem {
@@ -24,6 +23,13 @@
           }
           > .ratingTitle {
             font-size: 14px;
+          }
+        }
+      }
+      >.secondRow{
+        >.profiles{
+          >.profile{
+            width: 100%;
           }
         }
       }
