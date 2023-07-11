@@ -1,0 +1,12 @@
+{
+  "name": "mentor-social-prof",
+  "packageManager": "yarn@3.6.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "sass": "^1.63.6",
+    "vite": "^4.4.2"
+  }
+}
