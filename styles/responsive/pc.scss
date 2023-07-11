@@ -1,0 +1,21 @@
+@media screen and (max-width: 1200px) {
+  .container {
+    > .content {
+      width: 90%;
+      > .firstRow {
+        > .ourMessage {
+          width: 450px;
+          > .title {
+            font-size: 48px;
+          }
+          > .message {
+            font-size: 15px;
+          }
+        }
+        > .ratings {
+          width: 50%;
+        }
+      }
+    }
+  }
+}

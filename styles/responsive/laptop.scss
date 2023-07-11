@@ -1,0 +1,58 @@
+@media screen and (max-width: 991px) {
+  .container {
+    > .desktopBottom {
+      display: none;
+    }
+    > .dektopTop {
+      display: none;
+    }
+    > .mobileTop {
+      display: inline;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    > .mobileBottom {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+    }
+    > .content {
+      > .firstRow {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        > .ourMessage {
+          text-align: center;
+        }
+        > .ratings {
+          width: 100%;
+        }
+        > .ratings {
+          > .review,
+          > .guru,
+          > .bestTech {
+            align-self: center;
+          }
+        }
+      }
+      > .secondRow {
+        height: auto;
+        align-self: center;
+        > .profiles {
+          justify-content: space-between;
+          flex-direction: column;
+          margin-top: 30px;
+          > .profile {
+            width: 50%;
+            &:nth-child(1),
+            &:nth-child(2),
+            &:nth-child(3) {
+              align-self: center;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+@media screen and (max-width: 768px) {
+  .container {
+    > .content {
+      > .firstRow {
+        > .ourMessage {
+          width: 350px;
+          > .title {
+            font-size: 45px;
+          }
+        }
+        > .secondRow {
+          > .profiles {
+            > .profile {
+              width: 90%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
